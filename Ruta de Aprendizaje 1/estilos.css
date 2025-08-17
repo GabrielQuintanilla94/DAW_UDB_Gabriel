@@ -42,7 +42,8 @@ header {
 .articulos article img {
   width: 100%;
   max-width: 300px;
-  height: auto;
+  height: 200px;
+  object-fit: fill;
   border-radius: 8px;
   display: block;
   margin: 0 auto;
