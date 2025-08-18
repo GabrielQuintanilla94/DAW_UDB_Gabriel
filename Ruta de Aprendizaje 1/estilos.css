@@ -191,3 +191,73 @@ footer {
     font-size: 0.9rem;
   }
 }
+
+.barra-lateral {
+  background: #fdfdfd;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  max-width: 300px;
+  font-family: Arial, sans-serif;
+}
+
+.barra-lateral h3 {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 0.5rem;
+  color: #333;
+}
+
+.boton {
+  display: inline-block;
+  margin-bottom: 1.2rem;
+  padding: 0.6rem 1rem;
+  background: #d62828;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+.boton:hover {
+  background: #a4161a;
+}
+
+.articulos-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.articulos-lista li {
+  margin-bottom: 1.2rem;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.articulos-lista li:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+.articulos-lista a {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  color: #222;
+}
+
+.articulos-lista img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.articulos-lista p {
+  padding: 0.8rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
